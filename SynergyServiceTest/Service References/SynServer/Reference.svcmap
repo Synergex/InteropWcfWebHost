@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="24b14bf4-dbad-4842-8392-1abe07bdbf1f" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings>
+      <CollectionMapping TypeName="System.Collections.Generic.List`1" Category="List" />
+    </CollectionMappings>
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:49480/SynergyService.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="SynergyService.disco" MetadataType="Disco" ID="78d086e4-9492-4b92-9f83-4c1896a0cdd2" SourceId="1" SourceUrl="http://localhost:49480/SynergyService.svc?disco" />
+    <MetadataFile FileName="SynergyService.xsd" MetadataType="Schema" ID="6d43cc48-7a89-4ac8-b5cb-32b6f71ffc2b" SourceId="1" SourceUrl="http://localhost:49480/SynergyService.svc?xsd=xsd0" />
+    <MetadataFile FileName="SynergyServer.wsdl" MetadataType="Wsdl" ID="57feb516-6a27-473f-a91a-4fc6205f61e6" SourceId="1" SourceUrl="http://localhost:49480/SynergyService.svc?wsdl" />
+    <MetadataFile FileName="SynergyService1.xsd" MetadataType="Schema" ID="81c487d6-ab9b-48fd-9044-baec5226c240" SourceId="1" SourceUrl="http://localhost:49480/SynergyService.svc?xsd=xsd1" />
+    <MetadataFile FileName="SynergyService2.xsd" MetadataType="Schema" ID="9a63c6f9-d278-4977-9f9f-e5ac6e492c04" SourceId="1" SourceUrl="http://localhost:49480/SynergyService.svc?xsd=xsd2" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
