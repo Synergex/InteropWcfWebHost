@@ -1,0 +1,127 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Name>"SynergyWcfService"</Name>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{6a56a929-3954-4153-b476-9dbb6e005a25}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>SynergyWcfService</RootNamespace>
+    <AssemblyName>SynergyWcfService</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <TargetPlatform>v4</TargetPlatform>
+    <MainFile>Class.dbl</MainFile>
+    <XfplMigration>true</XfplMigration>
+    <DBL_qWarnLevel>3 - Don't display warnings levels higher than 3</DBL_qWarnLevel>
+    <DBL_qWarn>True</DBL_qWarn>
+    <DBLCmdOptions> -W3 -qstack</DBLCmdOptions>
+    <Language>Synergy</Language>
+    <DBL_unQulRecStm>Stack</DBL_unQulRecStm>
+    <ProjEnvVars>SYNPROJDIR=C:\CodeExchange\SynNet\InteropWcfWebHost;RPSMFIL=C:\CodeExchange\SynNet\InteropWcfWebHost\SynergyWcfService\rps\rpsmain.ism;RPSTFIL=C:\CodeExchange\SynNet\InteropWcfWebHost\SynergyWcfService\rps\rpstext.ism;</ProjEnvVars>
+    <XFPL_StrPubFlds>False</XFPL_StrPubFlds>
+    <XFPL_BinFldString>False</XFPL_BinFldString>
+    <XFPL_AltFldNme>False</XFPL_AltFldNme>
+    <XFPL_AltIntrface>False</XFPL_AltIntrface>
+    <XFPL_AltIntrfaceName />
+    <XFPL_Pool>False</XFPL_Pool>
+    <XFPL_PoolReturn>False</XFPL_PoolReturn>
+    <XFPL_OutParamType>False</XFPL_OutParamType>
+    <XFPL_WCFContracts>True</XFPL_WCFContracts>
+    <PreBuildEvent />
+    <PostBuildEvent />
+    <RunPostBuildEvent>On successful build</RunPostBuildEvent>
+    <DBL_qAltif>False</DBL_qAltif>
+    <DBL_qErrWarn>False</DBL_qErrWarn>
+    <DBL_qDisWarnOpt />
+    <DBL_qVariantOpt />
+    <DBL_StackSize />
+    <OtherOptions />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <IncludeDebugInformation>true</IncludeDebugInformation>
+    <OutputPath>bin\Debug\</OutputPath>
+    <PlatformTarget>Any CPU</PlatformTarget>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+    <DebugOptimize>Debug</DebugOptimize>
+    <DefineConstants />
+    <WarningsAsErrors />
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <DocumentationFile />
+    <SerializeAssembly>Auto</SerializeAssembly>
+    <DllBaseAddress />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <IncludeDebugInformation>true</IncludeDebugInformation>
+    <OutputPath>bin\Release\</OutputPath>
+    <PlatformTarget>x86</PlatformTarget>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="mscorlib" />
+    <Reference Include="synrnt">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="GeneratedCode\Address.dbl" />
+    <Compile Include="GeneratedCode\Address_type.dbl" />
+    <Compile Include="GeneratedCode\Contact.dbl" />
+    <Compile Include="GeneratedCode\Customer.dbl" />
+    <Compile Include="GeneratedCode\Method_status.dbl" />
+    <Compile Include="GeneratedCode\SynergyServer.dbl" />
+    <Compile Include="methods\DataDefinitions.dbl" />
+    <Compile Include="methods\GetAddressForUpdate.dbl" />
+    <Compile Include="methods\GetAllCustomers.dbl" />
+    <Compile Include="methods\GetContactForUpdate.dbl" />
+    <Compile Include="methods\GetCustomerAddresses.dbl" />
+    <Compile Include="methods\GetCustomerContacts.dbl" />
+    <Compile Include="methods\GetCustomerForUpdate.dbl" />
+    <Compile Include="methods\SetLogicals.dbl" />
+    <Compile Include="methods\UpdateContact.dbl" />
+    <Compile Include="methods\UpdateCustomer.dbl" />
+    <Compile Include="SynergyRoutines.dbl" />
+    <Compile Include="Properties\AssemblyInfo.dbl" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="dat" />
+    <Folder Include="GeneratedCode\" />
+    <Folder Include="methods" />
+    <Folder Include="rps" />
+    <Folder Include="Properties\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="dat\contact.is1">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="dat\contact.ism">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="dat\customer.is1">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="dat\customer.ism">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="rps\rpsmain.is1">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="rps\rpsmain.ism">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="rps\rpstext.is1">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="rps\rpstext.ism">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="rps\spc2010.schema">
+      <SubType>Content</SubType>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Synergex\VS2010\Synergex.SynergyDE.targets" />
+</Project>

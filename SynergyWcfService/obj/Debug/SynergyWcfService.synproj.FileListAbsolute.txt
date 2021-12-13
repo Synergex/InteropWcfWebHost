@@ -1,0 +1,15 @@
+C:\Dev\SynNetTesting\InteropTestWcf\SynergyWcfService\obj\Debug\ResolveAssemblyReference.cache
+C:\Dev\SynNetTesting\InteropTestWcf\SynergyWcfService\bin\Debug\SynergyWcfService.dll
+C:\Dev\SynNetTesting\InteropTestWcf\SynergyWcfService\bin\Debug\SynergyWcfService.pdb
+C:\Dev\SynNetTesting\InteropTestWcf\SynergyWcfService\obj\Debug\SynergyWcfService.dll
+C:\Dev\SynNetTesting\InteropTestWcf\SynergyWcfService\obj\Debug\SynergyWcfService.pdb
+C:\Dev\SynNetTesting\InteropWcfWebHost\SynergyWcfService\bin\Debug\SynergyWcfService.dll
+C:\Dev\SynNetTesting\InteropWcfWebHost\SynergyWcfService\bin\Debug\SynergyWcfService.pdb
+C:\Dev\SynNetTesting\InteropWcfWebHost\SynergyWcfService\obj\Debug\ResolveAssemblyReference.cache
+C:\Dev\SynNetTesting\InteropWcfWebHost\SynergyWcfService\obj\Debug\SynergyWcfService.dll
+C:\Dev\SynNetTesting\InteropWcfWebHost\SynergyWcfService\obj\Debug\SynergyWcfService.pdb
+C:\CodeExchange\SynNet\InteropWcfWebHost\SynergyWcfService\bin\Debug\SynergyWcfService.dll
+C:\CodeExchange\SynNet\InteropWcfWebHost\SynergyWcfService\bin\Debug\SynergyWcfService.pdb
+C:\CodeExchange\SynNet\InteropWcfWebHost\SynergyWcfService\obj\Debug\ResolveAssemblyReference.cache
+C:\CodeExchange\SynNet\InteropWcfWebHost\SynergyWcfService\obj\Debug\SynergyWcfService.dll
+C:\CodeExchange\SynNet\InteropWcfWebHost\SynergyWcfService\obj\Debug\SynergyWcfService.pdb

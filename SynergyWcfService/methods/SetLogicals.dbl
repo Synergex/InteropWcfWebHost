@@ -1,0 +1,10 @@
+{xfMethod(interface="SynergyServer",elb="EXE:SynergyServer")}
+;;;<summary>Sets logicals required by the other methods</summary>
+subroutine SetLogicals
+	endparams
+	record
+		sts, i4
+proc
+	xcall setlog("DAT","C:\CodeExchange\SynNet\InteropWcfWebHost\SynergyWcfService\dat",sts)
+	xreturn
+endsubroutine	
